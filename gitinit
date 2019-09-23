@@ -1,0 +1,11 @@
+#!/bin/bash
+# Remplacer USERNAME par votre nom d'utilisateur GitHub
+depot=${PWD##*/}
+git init
+curl -u 'USERNAME' 'https://api.github.com/user/repos' -d '{"name":"'"$depot"'", "private": true}' 
+git remote add origin "https://github.com/MaxNicol/$depot.git"
+if [ ! -z "$(ls)" ]; then
+    git add .
+    git commit -m "Commit initial"
+    git push -u origin master
+fi
