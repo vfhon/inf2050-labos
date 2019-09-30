@@ -1,0 +1,19 @@
+# Objets utiles
+
+JSONArray;
+JSONObject;
+
+# Méthodes utiles pour la création d'un json
+
+JSONArray.add(JSONObject);
+JSONObject.put("TAG","Contenu");
+
+
+# Méthodes utiles pour la lecture d'un json
+
+String jsonText = DiskFile.loadFileIntoString(filename);
+JSONObject object = (JSONObject) JSONSerializer.toJSON(jsonText);
+
+JSONArray.get(int index);
+JSONOBject.getString("TAG");
+JSONArray array = (JSONArray) JSONObject.getJSONArray("TAG");
