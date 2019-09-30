@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Album	Album.java	/^    public Album(String type, String artiste, String titre, int publication, int note){$/;"	m	class:Album
+Album	Album.java	/^public class Album{$/;"	c
+DiskFile	DiskFile.java	/^public class DiskFile {$/;"	c
+JsonParser	JsonParser.java	/^public class JsonParser{$/;"	c
+Reader	Reader.java	/^public class Reader{$/;"	c
+Wrtier	Writer.java	/^public class Wrtier{$/;"	c
+artiste	Album.java	/^    private String artiste;$/;"	f	class:Album	file:
+getArtiste	Album.java	/^    public String getArtiste(){$/;"	m	class:Album
+getNote	Album.java	/^    public int getNote(){$/;"	m	class:Album
+getPublication	Album.java	/^    public int getPublication(){$/;"	m	class:Album
+getTitre	Album.java	/^    public String getTitre(){$/;"	m	class:Album
+getType	Album.java	/^    public String getType(){$/;"	m	class:Album
+jsonFileToAlbums	JsonParser.java	/^    public static ArrayList<Album> jsonFileToAlbums(String filename) throws IOException {$/;"	m	class:JsonParser
+jsonToAlbum	JsonParser.java	/^    private static void jsonToAlbum (JSONArray data, ArrayList<Album> arrayAlbums){$/;"	m	class:JsonParser	file:
+loadFileIntoString	DiskFile.java	/^    public static String loadFileIntoString(String filePath) throws FileNotFoundException, IOException {$/;"	m	class:DiskFile
+main	Reader.java	/^    public static void main (String[] args){$/;"	m	class:Reader
+main	Writer.java	/^    public static void main (String[] args){$/;"	m	class:Wrtier
+note	Album.java	/^    private int note;$/;"	f	class:Album	file:
+printStats	Reader.java	/^    public static void printStats(ArrayList<Album> arrayAlbums){$/;"	m	class:Reader
+publication	Album.java	/^    private int publication;$/;"	f	class:Album	file:
+saveStringIntoFile	DiskFile.java	/^    public static void saveStringIntoFile(String filePath, String content) throws IOException {$/;"	m	class:DiskFile
+titre	Album.java	/^    private String titre;$/;"	f	class:Album	file:
+type	Album.java	/^    private String type;$/;"	f	class:Album	file:
