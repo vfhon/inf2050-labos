@@ -1,0 +1,11 @@
+# Pour compiler en incluant des fichiers .jar (contenus dans un répertoire /lib)
+
+javac -cp .:lib/* MonProgramme.java
+
+# Pour executer 
+
+java -cp .:.lib/* MonProgramme
+
+# Pour inclure la librairie externe dans Intellij
+
+fichier > project structure > modules > dependencies > "+" > JARs or directories
