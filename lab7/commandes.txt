@@ -1,0 +1,16 @@
+git checkout -b "uneBranche" --Création et basculement vers une nouvelle branche
+git push origin uneBranche --Push d'une branche locale vers le dépôt distant
+git push -u origin uneBranche --Premier push de contenu vers la branche du dépôt dist.
+git checkout master --Basculement vers la branche master
+git merge uneBranche --Merge de la branche uneBranche vers la branche actuelle
+git cherry-pick XXXXXXXXX --Merge du commit XXXXXXXX vers la branche actuelle
+git push origin :uneBranche --Supression de la branche uneBranche sur le dépot dist.
+git push origin --delete uneBranche --Supression de la branche uneBranche sur le dépot dist.
+git branch -a --liste les branches du dépôt
+
+contenu .gitignore de base pour un projet Java intellij:
+    *.class
+    *.jar
+    .idea/*
+    *.iml
+
