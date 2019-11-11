@@ -20,3 +20,13 @@
 [https://maven.apache.org/plugins/maven-pmd-plugin/usage.html](https://maven.apache.org/plugins/maven-pmd-plugin/usage.html)
 
 ```mvn site```
+
+## Maven site
+
+```
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.7.1</version>
+    </plugin>
+```
