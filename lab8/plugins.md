@@ -24,9 +24,29 @@
 ## Maven site
 
 ```
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-    </plugin>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-site-plugin</artifactId>
+    <version>3.7.1</version>
+</plugin>
+```
+
+## Maven checkstyle dependecy
+```
+<dependency>
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-checkstyle-plugin</artifactId>
+   <version>3.1.0</version>
+   <type>maven-plugin</type>
+</dependency>
+```
+
+## Maven pmd dependency
+```
+<dependency>
+    <groupId>net.sourceforge.pmd</groupId>
+    <artifactId>pmd</artifactId>
+    <version>6.19.0</version>
+    <type>pom</type>
+</dependency>
 ```
